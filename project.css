@@ -8,8 +8,8 @@ body{
     margin: 0 auto;
 }
 header{
-    background-color: red;
-    background: url("../Projects/jpg/images/developer.png");
+    background-color:whitesmoke;
+    background: url("../Projects/jpg/images/developer.png"),url("../Projects/jpg/images/header_bg.png");
     background-position: top left;
     background-repeat: no-repeat;
 
