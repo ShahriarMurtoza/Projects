@@ -4,9 +4,16 @@
   font-optical-sizing: auto;
   
 }
+body{
+    margin: 0 auto;
+}
 header{
-    background-color: bisque;
-    padding-top: 50px;
+    background-color: red;
+    background: url("../Projects/jpg/images/developer.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+
+    
 }
 
 ul a{
@@ -16,7 +23,7 @@ ul a{
 nav{
     width: 80% ;
     max-width: 1600px;
-    border: 1px solid red;
+    border: 1px solid none;
     margin: 0px auto ;
     justify-content: space-between;
     display: flex;
@@ -27,7 +34,7 @@ nav .menu{
      gap: 50px ;
      align-items: center;
 }
-.bttn{
+ .bttn{
     background-color: orange;
     border:none;
     cursor: pointer;
@@ -36,7 +43,48 @@ nav .menu{
     font-size: 13px;
     font-weight: bold;
     color: aliceblue;
-    
-    
+
+}
+#hero{
+    border: 1px solid red;
+    margin: 47px 38px 0 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+#hero .hero-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+#hero .hero-content h1{
+     font-size: 85px;
+     font-weight: bold;
+     color: #181818;
+     margin-bottom: 20px;
+
+}
+#hero .hero-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: rgb(241, 134, 12);
+    font-size: 25px;
+    font-weight: medium;
+    color: aliceblue;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
     
 }
+#hero .hero-image img{
+     max-width: 585px;
+     vertical-align: middle;
+
+} 
+
